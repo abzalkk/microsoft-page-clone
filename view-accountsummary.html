@@ -1,0 +1,2017 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<HTML lang="en">
+
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" name="Cache-Control" content="no-cache">
+    <meta http-equiv="Cache-Control" name="Cache-Control" content="no-cache">
+    <LINK REL="stylesheet" HREF="./assets/styles/web_default.css" TYPE="text/css">
+    <LINK REL="stylesheet" HREF="./assets/styles/web_defaultprint.css" TYPE="text/css" media="print">
+    <title>Account Summary by Term</title>
+    <meta http-equiv="Content-Script-Type" name="Default_Script_Language" content="text/javascript">
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+        <!-- Hide JavaScript from older b 
+        window.onunload = function() {submitcount=0;}
+        var submitcount=0;
+        function checkSubmit() {
+        if (submitcount == 0)
+           {
+           submitcount++;
+           return true;
+           }
+        else
+           {
+        alert("Your changes have already been submitted.");
+           return false;
+           }
+        }
+        //  End script hiding -->
+    </SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+        <!-- Hide JavaScript from older b 
+        //  Function to open a window
+        function windowOpen(window_url) {
+           helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+           if (document.images) { 
+               if (helpWin) helpWin.focus()
+           }
+        }
+        //  End script hiding -->
+    </SCRIPT>
+</head>
+
+<body>
+    <div class="headerwrapperdiv">
+        <div class="pageheaderdiv1">
+            <a href="#main_content" onMouseover="window.status='Go to Main Content'; return true"
+                onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true"
+                onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</a>
+            <h1>USF</h1>
+        </DIV>
+        <div class="headerlinksdiv">
+            <SPAN class="pageheaderlinks2">
+                <map name="Module_Navigation_Links_H" title="Module Navigation Links">
+                    <p>
+                        <a href="#skip_Module_Navigation_Links_H"
+                            onMouseover="window.status='Skip Module Navigation Links'; return true"
+                            onMouseout="window.status=''; return true"
+                            onFocus="window.status='Skip Module Navigation Links'; return true"
+                            onBlur="window.status=''; return true" class="skiplinks">Skip Module Navigation Links</a>
+                        <table CLASS="plaintable" SUMMARY="This is main table for displaying Tab Items." WIDTH="100%"
+                            cellSpacing=0 cellPadding=0 border=0>
+                            <tr>
+                                <TD CLASS="pldefault">
+                                    <table CLASS="plaintable" SUMMARY="This table displays Tab Items." cellSpacing=0
+                                        cellPadding=0 border=0>
+                                        <tr>
+                                            <td class="taboff" height=22>
+                                                <a href="personal-information.html"
+                                                    onMouseover="window.status='Personal Information'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Personal Information'; return true"
+                                                    onBlur="window.status=''; return true">Personal Information</a>
+                                            </TD>
+                                            <TD class="bgtaboff" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                            <td class="tabon" height=22>
+                                                <a href="student.html"
+                                                    onMouseover="window.status='Student'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Student'; return true"
+                                                    onBlur="window.status=''; return true">Student</a>
+                                            </TD>
+                                            <TD class="bgtabon" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                            <td class="taboff" height=22>
+                                                <a href="#" onMouseover="window.status='Financial Aid'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Financial Aid'; return true"
+                                                    onBlur="window.status=''; return true">Financial Aid</a>
+                                            </TD>
+                                            <TD class="bgtaboff" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                        </tr>
+                                    </table>
+                                </TD>
+                            </tr>
+                            <tr>
+                                <TD class="bgtabon" width="100%" colSpan=2><img
+                                        src="./assets/images/web_transparent.gif" alt="Transparent Image"
+                                        CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent" HSPACE=0
+                                        VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+                            </tr>
+                        </table>
+                </map>
+            </SPAN>
+            <a name="skip_Module_Navigation_Links_H"></a>
+        </DIV>
+        <table CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox." WIDTH="100%">
+            <tr>
+                <TD CLASS="pldefault">
+                    <div class="headerlinksdiv2">
+                        <form action="/pls/prod/twbksrch.P_ShowResults" method="post">
+                            Search
+                            <SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN
+                                        class="fieldlabeltext">Search</SPAN></LABEL></SPAN>
+                            <input type="text" name="KEYWRD_IN" size="20" maxlength="65" ID="keyword_in_id" />
+                            <input type="submit" value="Go" />
+                        </form>
+                    </div>
+                </TD>
+                <TD CLASS="pldefault">
+                    <p class="rightaligntext" /p>
+                        <SPAN class="pageheaderlinks">
+                            <a href="main.html" class="submenulinktext2" id="ssbbackurl">RETURN TO MENU</a>
+                            |
+                            <a href="/pls/prod/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3"
+                                accesskey="2" class="submenulinktext2">SITE MAP</a>
+                            |
+                            <a href="/pls/prod/twbkfrmt.P_DispHelp?pagename_in=bwskoacc.P_ViewAcct" accesskey="H"
+                                onClick="popup = window.open('/pls/prod/twbkfrmt.P_DispHelp?pagename_in=bwskoacc.P_ViewAcct', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false"
+                                target="_blank" onMouseOver="window.status='';  return true"
+                                onMouseOut="window.status=''; return true" onFocus="window.status='';  return true"
+                                onBlur="window.status=''; return true" class="submenulinktext2">HELP</a>
+                            |
+                            <a href="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</a>
+                        </span>
+                </TD>
+            </tr>
+        </table>
+    </DIV>
+    <div class="pagetitlediv">
+        <table CLASS="plaintable" SUMMARY="This table displays title and static header displays." WIDTH="100%">
+            <tr>
+                <TD CLASS="pldefault">
+                    <h2>Account Summary by Term</h2>
+                </TD>
+                <TD CLASS="pldefault">
+                    &nbsp;
+                </TD>
+                <TD CLASS="pldefault">
+                    <p class="rightaligntext" /p>
+                    <div class="staticheaders">
+                        U90325380 Abzal D. Kudratullaev<br>
+                        Apr 08, 2024 08:30 pm<br>
+                    </div>
+                </TD>
+            </tr>
+            <tr>
+                <TD class="bg3" width="100%" colSpan=3><img src="./assets/images/web_transparent.gif"
+                        alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent"
+                        HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+            </tr>
+        </table>
+        <a name="main_content"></a>
+    </DIV>
+    <div class="pagebodydiv">
+        <!--  ** END OF twbkwbis.P_OpenDoc **  -->
+        <p class="whitespace1">
+        <div class="infotextdiv">
+            <table CLASS="infotexttable"
+                SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information.">
+                <tr>
+                    <td CLASS="indefault"><img src="./assets/images/web_money.gif" alt="money icon" CLASS="headerImg"
+                            TITLE="money icon" NAME="web_money" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=28 WIDTH=28 /></td>
+                    <td CLASS="indefault"><SPAN class="infotext"> This is your account summary by term. Anticipated
+                            third party contract payments, financial aid, and memos are <b>NOT</b> included in the
+                            summary. Go to the financial aid menu to check the status of your financial aid.
+                            <p>
+                            <p>To make a payment, click on this link: <a
+                                    href="https://secure.touchnet.com/C20235_tsa/web/caslogin.jsp"
+                                    target="_blank">Student Bill Payment</a> (NetID and Password required)</p>
+                            <p> Pay online with e-check for free! A 2.75% convenience fee will be assessed when paying
+                                with bank cards – Master Card, Discover, or American Express. </p>
+                            <p>For more information concerning tuition & fees on your student account, please visit the
+                                <a href="http://www.usf.edu/business-finance/controller/student-services/index.aspx"
+                                    target="new"> Student Financial Services website</a>
+                            </p>
+                        </SPAN></td>
+                </tr>
+            </table>
+            <p>
+        </DIV>
+        <table CLASS="datadisplaytable"
+            summary="This table displays summarized charge and payment transactions by term on your academic record.">
+            <caption class="captiontext">Summary</caption>
+            <tr>
+                <th colspan="4" CLASS="ddlabel" scope="row">Account Balance:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $3,202.12</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="5" CLASS="ddlabel" scope="row"><a href="bwskoacc.P_ViewAcctTerm?term_in=202401">Spring
+                        2024</a></th>
+            </tr>
+            <tr>
+                <th CLASS="ddheader" scope="col">Detail Code</th>
+                <th CLASS="ddheader" scope="col">Description</th>
+                <th CLASS="ddheader" scope="col">Charge</th>
+                <th CLASS="ddheader" scope="col">Payment</th>
+                <th CLASS="ddheader" scope="col">Balance</th>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ISAC</td>
+                <td CLASS="dddefault">Intn'l Student & Scholar Svcs.</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $50.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $50.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">LPTU</td>
+                <td CLASS="dddefault">Late Payment Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $100.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $100.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ODLU</td>
+                <td CLASS="dddefault">Distance Learning Fee- TPA UG</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $90.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $90.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">P1FC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State FinAid</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">P1MC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PDIF</td>
+                <td CLASS="dddefault">Tuition - Differential</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PDLU</td>
+                <td CLASS="dddefault">Distance Learning Fee- STP UG</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PUGF</td>
+                <td CLASS="dddefault">Tuition - UG Green Energy Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PULC</td>
+                <td CLASS="dddefault">Tuition-UG Local Fees One USF</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PULF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Local Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PUMC</td>
+                <td CLASS="dddefault">Tuition - Undergraduate</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PUSF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad State Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PUTC</td>
+                <td CLASS="dddefault">Tuition-Transportation One USF</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PUTF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Tech Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">PUTR</td>
+                <td CLASS="dddefault">Tuition - UG Transportation</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">QLAB</td>
+                <td CLASS="dddefault">Fac & Equip Fee- Computer Labs</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $25.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $25.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1FC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State FinAid</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $207.84</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $207.84</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1MC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $4,158.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $1,039.50</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TDIF</td>
+                <td CLASS="dddefault">Tuition - Differential</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $562.56</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $562.56</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAF</td>
+                <td CLASS="dddefault">Flat Fee Athletic Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $10.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $10.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAS</td>
+                <td CLASS="dddefault">Flat Fee A&S Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFMC</td>
+                <td CLASS="dddefault">Student Union Enh Flat Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $20.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $20.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUGF</td>
+                <td CLASS="dddefault">Tuition - UG Green Energy Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $12.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $12.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TULF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Local Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $437.76</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $437.76</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUMC</td>
+                <td CLASS="dddefault">Tuition - Undergraduate</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $1,260.84</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $379.34</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUSF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad State Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $144.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $144.12</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Tech Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $63.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $63.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTR</td>
+                <td CLASS="dddefault">Tuition - UG Transportation</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $36.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $36.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUUF</td>
+                <td CLASS="dddefault">Tuition - UG Facilities Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $18.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $18.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">AMEX</td>
+                <td CLASS="dddefault">American Express Credit Card</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ECHK</td>
+                <td CLASS="dddefault">eCheck Online Payment</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $4,000.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" CLASS="ddlabel" scope="row">Term Charges:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7,202.12</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3" CLASS="ddlabel" scope="row">Term Credits and Payments:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $4,000.00</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4" CLASS="ddlabel" scope="row">Term Balance:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $3,202.12</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" CLASS="ddseparator">&nbsp;</td>
+            </tr>
+            <tr>
+                <th colspan="5" CLASS="ddlabel" scope="row"><a href="bwskoacc.P_ViewAcctTerm?term_in=202308">Fall
+                        2023</a></th>
+            </tr>
+            <tr>
+                <th CLASS="ddheader" scope="col">Detail Code</th>
+                <th CLASS="ddheader" scope="col">Description</th>
+                <th CLASS="ddheader" scope="col">Charge</th>
+                <th CLASS="ddheader" scope="col">Payment</th>
+                <th CLASS="ddheader" scope="col">Balance</th>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">DSHS</td>
+                <td CLASS="dddefault">Stu. Hth Srv Insurance Premium</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ISAC</td>
+                <td CLASS="dddefault">Intn'l Student & Scholar Svcs.</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $50.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">LPTU</td>
+                <td CLASS="dddefault">Late Payment Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $100.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ODLU</td>
+                <td CLASS="dddefault">Distance Learning Fee- TPA UG</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">QMTH</td>
+                <td CLASS="dddefault">Fac & Equip Fee - Mathematics</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1FC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State FinAid</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $207.84</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1MC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $4,158.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TDIF</td>
+                <td CLASS="dddefault">Tuition - Differential</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $562.56</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAF</td>
+                <td CLASS="dddefault">Flat Fee Athletic Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $10.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAS</td>
+                <td CLASS="dddefault">Flat Fee A&S Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFMC</td>
+                <td CLASS="dddefault">Student Union Enh Flat Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $20.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUGF</td>
+                <td CLASS="dddefault">Tuition - UG Green Energy Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $12.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TULF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Local Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $437.76</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUMC</td>
+                <td CLASS="dddefault">Tuition - Undergraduate</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $1,260.84</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TURB</td>
+                <td CLASS="dddefault">Repeat Course Fee 2023-2024</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUSF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad State Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $144.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Tech Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $63.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTR</td>
+                <td CLASS="dddefault">Tuition - UG Transportation</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $36.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUUF</td>
+                <td CLASS="dddefault">Tuition - UG Facilities Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $18.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">AMEX</td>
+                <td CLASS="dddefault">American Express Credit Card</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $3,087.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ECHK</td>
+                <td CLASS="dddefault">eCheck Online Payment</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $4,000.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" CLASS="ddlabel" scope="row">Term Charges:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7,087.12</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3" CLASS="ddlabel" scope="row">Term Credits and Payments:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7,087.12</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4" CLASS="ddlabel" scope="row">Term Balance:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" CLASS="ddseparator">&nbsp;</td>
+            </tr>
+            <tr>
+                <th colspan="5" CLASS="ddlabel" scope="row"><a href="bwskoacc.P_ViewAcctTerm?term_in=202301">Spring
+                        2023</a></th>
+            </tr>
+            <tr>
+                <th CLASS="ddheader" scope="col">Detail Code</th>
+                <th CLASS="ddheader" scope="col">Description</th>
+                <th CLASS="ddheader" scope="col">Charge</th>
+                <th CLASS="ddheader" scope="col">Payment</th>
+                <th CLASS="ddheader" scope="col">Balance</th>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">DEN4</td>
+                <td CLASS="dddefault">Lab Fee- Engineering Computing</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $10.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ISAC</td>
+                <td CLASS="dddefault">Intn'l Student & Scholar Svcs.</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $50.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">LPTU</td>
+                <td CLASS="dddefault">Late Payment Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ODLU</td>
+                <td CLASS="dddefault">Distance Learning Fee- TPA UG</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $180.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">QCLE</td>
+                <td CLASS="dddefault">Fac & Equip Fee - Comp Lab Eng</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $1.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1FC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State FinAid</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $277.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1MC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $5,544.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TDIF</td>
+                <td CLASS="dddefault">Tuition - Differential</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $750.08</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAF</td>
+                <td CLASS="dddefault">Flat Fee Athletic Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $10.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAS</td>
+                <td CLASS="dddefault">Flat Fee A&S Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFMC</td>
+                <td CLASS="dddefault">Student Union Enh Flat Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $20.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUGF</td>
+                <td CLASS="dddefault">Tuition - UG Green Energy Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $16.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TULF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Local Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $583.68</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUMC</td>
+                <td CLASS="dddefault">Tuition - Undergraduate</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $1,681.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUSF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad State Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $192.16</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Tech Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $84.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTR</td>
+                <td CLASS="dddefault">Tuition - UG Transportation</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $48.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUUF</td>
+                <td CLASS="dddefault">Tuition - UG Facilities Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $24.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">AMEX</td>
+                <td CLASS="dddefault">American Express Credit Card</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $3,478.16</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ECHK</td>
+                <td CLASS="dddefault">eCheck Online Payment</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $6,000.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" CLASS="ddlabel" scope="row">Term Charges:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $9,478.16</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3" CLASS="ddlabel" scope="row">Term Credits and Payments:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $9,478.16</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4" CLASS="ddlabel" scope="row">Term Balance:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" CLASS="ddseparator">&nbsp;</td>
+            </tr>
+            <tr>
+                <th colspan="5" CLASS="ddlabel" scope="row"><a href="bwskoacc.P_ViewAcctTerm?term_in=202208">Fall
+                        2022</a></th>
+            </tr>
+            <tr>
+                <th CLASS="ddheader" scope="col">Detail Code</th>
+                <th CLASS="ddheader" scope="col">Description</th>
+                <th CLASS="ddheader" scope="col">Charge</th>
+                <th CLASS="ddheader" scope="col">Payment</th>
+                <th CLASS="ddheader" scope="col">Balance</th>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">DSHS</td>
+                <td CLASS="dddefault">Stu. Hth Srv Insurance Premium</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ISAC</td>
+                <td CLASS="dddefault">Intn'l Student & Scholar Svcs.</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $50.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">LPHY</td>
+                <td CLASS="dddefault">Lab Fee -Physics</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $3.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ODLU</td>
+                <td CLASS="dddefault">Distance Learning Fee- TPA UG</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $90.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">QPHY</td>
+                <td CLASS="dddefault">Fac & Equip Fee - Physics</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $5.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">S1FC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State FinAid</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">S1MC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SDIF</td>
+                <td CLASS="dddefault">Tuition - Differential</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SUGF</td>
+                <td CLASS="dddefault">Tuition - UG Green Fee One USF</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SULC</td>
+                <td CLASS="dddefault">Tuition-UG Local Fees One USF</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SULF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Local Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SUMC</td>
+                <td CLASS="dddefault">Tuition - Undergraduate</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SUSF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad State Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SUTC</td>
+                <td CLASS="dddefault">Tuition-Transportation One USF</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">SUTF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Tech Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1FC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State FinAid</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $242.48</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1MC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $4,851.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TDIF</td>
+                <td CLASS="dddefault">Tuition - Differential</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $656.32</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAF</td>
+                <td CLASS="dddefault">Flat Fee Athletic Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $10.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAS</td>
+                <td CLASS="dddefault">Flat Fee A&S Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFMC</td>
+                <td CLASS="dddefault">Student Union Enh Flat Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $20.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUGF</td>
+                <td CLASS="dddefault">Tuition - UG Green Energy Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $14.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TULF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Local Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $510.72</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUMC</td>
+                <td CLASS="dddefault">Tuition - Undergraduate</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $1,470.98</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUSF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad State Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $168.14</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Tech Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $73.50</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTR</td>
+                <td CLASS="dddefault">Tuition - UG Transportation</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $42.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUUF</td>
+                <td CLASS="dddefault">Tuition - UG Facilities Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $21.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ECHK</td>
+                <td CLASS="dddefault">eCheck Online Payment</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $8,000.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">MSTR</td>
+                <td CLASS="dddefault">Master Card Payment</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $272.64</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" CLASS="ddlabel" scope="row">Term Charges:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $8,235.14</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3" CLASS="ddlabel" scope="row">Term Credits and Payments:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $8,272.64</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4" CLASS="ddlabel" scope="row">Term Balance:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" CLASS="ddseparator">&nbsp;</td>
+            </tr>
+            <tr>
+                <th colspan="5" CLASS="ddlabel" scope="row"><a href="bwskoacc.P_ViewAcctTerm?term_in=202201">Spring
+                        2022</a></th>
+            </tr>
+            <tr>
+                <th CLASS="ddheader" scope="col">Detail Code</th>
+                <th CLASS="ddheader" scope="col">Description</th>
+                <th CLASS="ddheader" scope="col">Charge</th>
+                <th CLASS="ddheader" scope="col">Payment</th>
+                <th CLASS="ddheader" scope="col">Balance</th>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">AX21</td>
+                <td CLASS="dddefault">USF Tampa ID Card</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">HHOD</td>
+                <td CLASS="dddefault">Holly Damages</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $37.50</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">ISAC</td>
+                <td CLASS="dddefault">Intn'l Student & Scholar Svcs.</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1FC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State FinAid</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $277.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1IP</td>
+                <td CLASS="dddefault">Due from INTO-UG Pathways</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">T1MC</td>
+                <td CLASS="dddefault">Tuition-UG Out-of-State Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $5,544.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TDIF</td>
+                <td CLASS="dddefault">Tuition - Differential</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $750.08</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAF</td>
+                <td CLASS="dddefault">Flat Fee Athletic Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $10.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFAS</td>
+                <td CLASS="dddefault">Flat Fee A&S Tampa</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $7.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFIP</td>
+                <td CLASS="dddefault">Due from INTO- Flat Fees Path</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TFMC</td>
+                <td CLASS="dddefault">Student Union Enh Flat Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $20.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUGF</td>
+                <td CLASS="dddefault">Tuition - UG Green Energy Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $16.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TULF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Local Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $583.68</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUMC</td>
+                <td CLASS="dddefault">Tuition - Undergraduate</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $1,681.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUSF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad State Fees</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $192.16</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTF</td>
+                <td CLASS="dddefault">Tuition - UnderGrad Tech Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $84.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUTR</td>
+                <td CLASS="dddefault">Tuition - UG Transportation</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $48.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">TUUF</td>
+                <td CLASS="dddefault">Tuition - UG Facilities Fee</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $24.00</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">XIP1</td>
+                <td CLASS="dddefault">Exm INTO Pathways UG IS</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $3,416.04</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <td CLASS="dddefault">XIP2</td>
+                <td CLASS="dddefault">Exm INTO Pathways UG OOS</td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext">&nbsp;</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $5,821.12</p>
+                </td>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" CLASS="ddlabel" scope="row">Term Charges:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $9,274.66</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3" CLASS="ddlabel" scope="row">Term Credits and Payments:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $9,237.16</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4" CLASS="ddlabel" scope="row">Term Balance:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $0.00</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4" CLASS="ddlabel" scope="row">Account Balance:</th>
+                <td CLASS="dddefault">
+                    <p class="rightaligntext"> $3,202.12</p>
+                </td>
+            </tr>
+        </table>
+
+        <!--  ** START OF twbkwbis.P_CloseDoc **  -->
+        <table CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page." WIDTH="100%"
+            cellSpacing=0 cellPadding=0 border=0>
+            <tr>
+                <TD class="bgtabon" width="100%" colSpan=2><img src="./assets/images/web_transparent.gif"
+                        alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent"
+                        HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+            </tr>
+        </table>
+        <a href="#top" onMouseover="window.status='Skip to top of page'; return true"
+            onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true"
+            onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</a>
+    </DIV>
+    <div class="footerbeforediv">
+
+    </DIV>
+    <div class="footerlinksdiv">
+        <SPAN class="pagefooterlinks">
+            <map name="Account_Summary_by_Term_Links_F" title="Account Summary by Term Links">
+                <p>
+                    <a href="#skip_Account_Summary_by_Term_Links_F"
+                        onMouseover="window.status='Skip Account Summary by Term Links'; return true"
+                        onMouseout="window.status=''; return true"
+                        onFocus="window.status='Skip Account Summary by Term Links'; return true"
+                        onBlur="window.status=''; return true" class="skiplinks">Skip Account Summary by Term Links</a>
+                    <P>[ <a href="/pls/prod/bwrksumm.P_DispSumm"
+                            onMouseover="window.status='Overall Financial Aid Status'; return true"
+                            onMouseout="window.status=''; return true"
+                            onFocus="window.status='Overall Financial Aid Status'; return true"
+                            onBlur="window.status=''; return true">Overall Financial Aid Status</a>
+                        | <a href="/pls/prod/twbkwbis.P_GenMenu?name=bmenu.P_FAAwdMnu"
+                            onMouseover="window.status='Financial Aid Award Information Menu'; return true"
+                            onMouseout="window.status=''; return true"
+                            onFocus="window.status='Financial Aid Award Information Menu'; return true"
+                            onBlur="window.status=''; return true">Financial Aid Award Information Menu</a>
+                        ]
+            </map>
+        </SPAN>
+        <a name="skip_Account_Summary_by_Term_Links_F"></a>
+    </DIV>
+    <div class="footerafterdiv">
+
+    </DIV>
+    <div class="globalafterdiv">
+
+    </DIV>
+    <div class="globalfooterdiv">
+
+    </DIV>
+    <div class="pagefooterdiv">
+</body>
+
+</html>

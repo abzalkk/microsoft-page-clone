@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<HTML lang="en">
+
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" name="Cache-Control" content="no-cache">
+    <meta http-equiv="Cache-Control" name="Cache-Control" content="no-cache">
+    <LINK REL="stylesheet" HREF="./assets/styles/web_default.css" TYPE="text/css">
+    <LINK REL="stylesheet" HREF="./assets/styles/web_defaultprint.css" TYPE="text/css" media="print">
+    <title>Final Grades</title>
+    <meta http-equiv="Content-Script-Type" name="Default_Script_Language" content="text/javascript">
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+        <!-- Hide JavaScript from older brow 
+        window.onunload = function() {submitcount=0;}
+        var submitcount=0;
+        function checkSubmit() {
+        if (submitcount == 0)
+           {
+           submitcount++;
+           return true;
+           }
+        else
+           {
+        alert("Your changes have already been submitted.");
+           return false;
+           }
+        }
+        //  End script hiding -->
+    </SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+        <!-- Hide JavaScript from older brow 
+        //  Function to open a window
+        function windowOpen(window_url) {
+           helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+           if (document.images) { 
+               if (helpWin) helpWin.focus()
+           }
+        }
+        //  End script hiding -->
+    </SCRIPT>
+</head>
+
+<body>
+    <div class="headerwrapperdiv">
+        <div class="pageheaderdiv1">
+            <a href="#main_content" onMouseover="window.status='Go to Main Content'; return true"
+                onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true"
+                onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</a>
+            <h1>USF</h1>
+        </DIV>
+        <div class="headerlinksdiv">
+            <SPAN class="pageheaderlinks2">
+                <map name="Module_Navigation_Links_H" title="Module Navigation Links">
+                    <p>
+                        <a href="#skip_Module_Navigation_Links_H"
+                            onMouseover="window.status='Skip Module Navigation Links'; return true"
+                            onMouseout="window.status=''; return true"
+                            onFocus="window.status='Skip Module Navigation Links'; return true"
+                            onBlur="window.status=''; return true" class="skiplinks">Skip Module Navigation Links</a>
+                        <table CLASS="plaintable" SUMMARY="This is main table for displaying Tab Items." WIDTH="100%"
+                            cellSpacing=0 cellPadding=0 border=0>
+                            <tr>
+                                <TD CLASS="pldefault">
+                                    <table CLASS="plaintable" SUMMARY="This table displays Tab Items." cellSpacing=0
+                                        cellPadding=0 border=0>
+                                        <tr>
+                                            <td class="taboff" height=22>
+                                                <a href="personal-information.html"
+                                                    onMouseover="window.status='Personal Information'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Personal Information'; return true"
+                                                    onBlur="window.status=''; return true">Personal Information</a>
+                                            </TD>
+                                            <TD class="bgtaboff" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                            <td class="tabon" height=22>
+                                                <a href="student.html"
+                                                    onMouseover="window.status='Student'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Student'; return true"
+                                                    onBlur="window.status=''; return true">Student</a>
+                                            </TD>
+                                            <TD class="bgtabon" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                            <td class="taboff" height=22>
+                                                <a href="#" onMouseover="window.status='Financial Aid'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Financial Aid'; return true"
+                                                    onBlur="window.status=''; return true">Financial Aid</a>
+                                            </TD>
+                                            <TD class="bgtaboff" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                        </tr>
+                                    </table>
+                                </TD>
+                            </tr>
+                            <tr>
+                                <TD class="bgtabon" width="100%" colSpan=2><img
+                                        src="./assets/images/web_transparent.gif" alt="Transparent Image"
+                                        CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent" HSPACE=0
+                                        VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+                            </tr>
+                        </table>
+                </map>
+            </SPAN>
+            <a name="skip_Module_Navigation_Links_H"></a>
+        </DIV>
+        <table CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox." WIDTH="100%">
+            <tr>
+                <TD CLASS="pldefault">
+                    <div class="headerlinksdiv2">
+                        <form action="/pls/prod/twbksrch.P_ShowResults" method="post">
+                            Search
+                            <SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN
+                                        class="fieldlabeltext">Search</SPAN></LABEL></SPAN>
+                            <input type="text" name="KEYWRD_IN" size="20" maxlength="65" ID="keyword_in_id" />
+                            <input type="submit" value="Go" />
+                        </form>
+                    </div>
+                </TD>
+                <TD CLASS="pldefault">
+                    <p class="rightaligntext" /p>
+                        <SPAN class="pageheaderlinks">
+                            <a href="/pls/prod/twbkwbis.P_GenMenu?name=bmenu.P_AdminMnu" class="submenulinktext2"
+                                id="ssbbackurl">RETURN TO MENU</a>
+                            |
+                            <a href="/pls/prod/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3"
+                                accesskey="2" class="submenulinktext2">SITE MAP</a>
+                            |
+                            <a href="/pls/prod/twbkfrmt.P_DispHelp?pagename_in=bwskogrd.P_ViewTermGrde" accesskey="H"
+                                onClick="popup = window.open('/pls/prod/twbkfrmt.P_DispHelp?pagename_in=bwskogrd.P_ViewTermGrde', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false"
+                                target="_blank" onMouseOver="window.status='';  return true"
+                                onMouseOut="window.status=''; return true" onFocus="window.status='';  return true"
+                                onBlur="window.status=''; return true" class="submenulinktext2">HELP</a>
+                            |
+                            <a href="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</a>
+                        </span>
+                </TD>
+            </tr>
+        </table>
+    </DIV>
+    <div class="pagetitlediv">
+        <table CLASS="plaintable" SUMMARY="This table displays title and static header displays." WIDTH="100%">
+            <tr>
+                <TD CLASS="pldefault">
+                    <h2>
+University of South Florida - Final Grades</h2>
+                </TD>
+                <TD CLASS="pldefault">
+                    &nbsp;
+                </TD>
+                <TD CLASS="pldefault">
+                    <p class="rightaligntext" /p>
+                    <div class="staticheaders">
+                        U90325380 Abzal D. Kudratullaev<br>
+                        Apr 08, 2024 08:38 pm<br>
+                    </div>
+                </TD>
+            </tr>
+            <tr>
+                <TD class="bg3" width="100%" colSpan=3><img src="./assets/images/web_transparent.gif"
+                        alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent"
+                        HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+            </tr>
+        </table>
+        <a name="main_content"></a>
+    </DIV>
+    <div class="pagebodydiv">
+        <!--  ** END OF twbkwbis.P_OpenDoc **  -->
+
+     <span style="font-style: italic;
+     font-size: 14px;
+     ">
+        The following are your grades for the term requested.
+     </span>
+     <p
+      style="font-size: 14px;"
+     >
+        For detailed grade information or grade description click help.
+     </p>
+     <img src="/assets/images/fall-23.jpg" alt="spring"
+     style="width: 100%; height: auto"
+     />
+
+        <!--  ** START OF twbkwbis.P_CloseDoc **  -->
+        <table CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page." WIDTH="100%"
+            cellSpacing=0 cellPadding=0 border=0>
+            <tr>
+                <TD class="bgtabon" width="100%" colSpan=2><img src="./assets/images/web_transparent.gif"
+                        alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent"
+                        HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+            </tr>
+        </table>
+        <a href="#top" onMouseover="window.status='Skip to top of page'; return true"
+            onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true"
+            onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</a>
+    </DIV>
+    <div class="footerbeforediv">
+
+    </DIV>
+    <div class="footerlinksdiv">
+        <SPAN class="pagefooterlinks">
+            <map name="Final_Grades_Links_F" title="Final Grades Links">
+                <p>
+                    <a href="view-holds.html" onMouseover="window.status='Skip Final Grades Links'; return true"
+                        onMouseout="window.status=''; return true"
+                        onFocus="window.status='Skip Final Grades Links'; return true"
+                        onBlur="window.status=''; return true" class="skiplinks">Skip Final Grades Links</a>
+                    <P>[ <a href="view-holds.html" onMouseover="window.status='View Holds'; return true"
+                            onMouseout="window.status=''; return true" onFocus="window.status='View Holds'; return true"
+                            onBlur="window.status=''; return true">View Holds</a>
+                        ]
+            </map>
+        </SPAN>
+        <a name="skip_Final_Grades_Links_F"></a>
+    </DIV>
+    <div class="footerafterdiv">
+
+    </DIV>
+    <div class="globalafterdiv">
+
+    </DIV>
+    <div class="globalfooterdiv">
+
+    </DIV>
+    <div class="pagefooterdiv">
+       
+</body>
+
+</html>

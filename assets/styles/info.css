@@ -1,0 +1,28 @@
+.h-t {
+  font-size: 14px;
+}
+
+.h-r {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+
+.h-t {
+  width: 215px;
+}
+
+.h-b {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.h-g {
+  font-size: 14px;
+  height: 16px;
+  font-weight: 600;
+}
+
+span {
+  font-size: 14px;
+}

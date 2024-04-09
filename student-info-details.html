@@ -1,0 +1,372 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<HTML lang="en">
+
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" name="Cache-Control" content="no-cache">
+    <meta http-equiv="Cache-Control" name="Cache-Control" content="no-cache">
+    <LINK REL="stylesheet" HREF="./assets/styles/web_default.css" TYPE="text/css">
+    <LINK REL="stylesheet" HREF="./assets/styles/web_defaultprint.css" TYPE="text/css" media="print">
+    <link rel="stylesheet" href="./assets/styles/info.css"  type="text/css">
+        <title>Student Details </title>
+    <meta http-equiv="Content-Script-Type" name="Default_Script_Language" content="text/javascript">
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+        <!-- Hide JavaScript from olde 
+        window.onunload = function() {submitcount=0;}
+        var submitcount=0;
+        function checkSubmit() {
+        if (submitcount == 0)
+           {
+           submitcount++;
+           return true;
+           }
+        else
+           {
+        alert("Your changes have already been submitted.");
+           return false;
+           }
+        }
+        //  End script hiding -->
+    </SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+        <!-- Hide JavaScript from olde 
+        //  Function to open a window
+        function windowOpen(window_url) {
+           helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+           if (document.images) { 
+               if (helpWin) helpWin.focus()
+           }
+        }
+        //  End script hiding -->
+    </SCRIPT>
+</head>
+
+<body>
+    <div class="headerwrapperdiv">
+        <div class="pageheaderdiv1">
+            <a href="#main_content" onMouseover="window.status='Go to Main Content'; return true"
+                onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true"
+                onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</a>
+            <h1>USF</h1>
+        </DIV>
+        <div class="headerlinksdiv">
+            <SPAN class="pageheaderlinks2">
+                <map name="Module_Navigation_Links_H" title="Module Navigation Links">
+                    <p>
+                        <a href="#skip_Module_Navigation_Links_H"
+                            onMouseover="window.status='Skip Module Navigation Links'; return true"
+                            onMouseout="window.status=''; return true"
+                            onFocus="window.status='Skip Module Navigation Links'; return true"
+                            onBlur="window.status=''; return true" class="skiplinks">Skip Module Navigation Links</a>
+                        <table CLASS="plaintable" SUMMARY="This is main table for displaying Tab Items." WIDTH="100%"
+                            cellSpacing=0 cellPadding=0 border=0>
+                            <tr>
+                                <TD CLASS="pldefault">
+                                    <table CLASS="plaintable" SUMMARY="This table displays Tab Items." cellSpacing=0
+                                        cellPadding=0 border=0>
+                                        <tr>
+                                            <td class="taboff" height=22>
+                                                <a href="personal-information.html" target="_blank"
+                                                    onMouseover="window.status='Personal Information'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Personal Information'; return true"
+                                                    onBlur="window.status=''; return true">Personal Information</a>
+                                            </TD>
+                                            <TD class="bgtaboff" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                            <td class="tabon" height=22>
+                                                <a href="student.html" target="_blank"
+                                                    onMouseover="window.status='Student'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Student'; return true"
+                                                    onBlur="window.status=''; return true">Student</a>
+                                            </TD>
+                                            <TD class="bgtabon" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                            <td class="taboff" height=22>
+                                                <a href="/pls/prod/twbkwbis.P_GenMenu?name=bmenu.P_FAApplStuMnu"
+                                                    target="_blank"
+                                                    onMouseover="window.status='Financial Aid'; return true"
+                                                    onMouseout="window.status=''; return true"
+                                                    onFocus="window.status='Financial Aid'; return true"
+                                                    onBlur="window.status=''; return true">Financial Aid</a>
+                                            </TD>
+                                            <TD class="bgtaboff" height=22 vAlign="top" align="right">
+                                                <img src="./assets/images/web_tab_corner_right.gif"
+                                                    alt="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"
+                                                    NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20
+                                                    WIDTH=8 />
+                                            </TD>
+                                        </tr>
+                                    </table>
+                                </TD>
+                            </tr>
+                            <tr>
+                                <TD class="bgtabon" width="100%" colSpan=2><img
+                                        src="./assets/images/web_transparent.gif" alt="Transparent Image"
+                                        CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent" HSPACE=0
+                                        VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+                            </tr>
+                        </table>
+                </map>
+            </SPAN>
+            <a name="skip_Module_Navigation_Links_H"></a>
+        </DIV>
+        <table CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox." WIDTH="100%">
+            <tr>
+                <TD CLASS="pldefault">
+                    <div class="headerlinksdiv2">
+                        <form action="/pls/prod/twbksrch.P_ShowResults" method="post">
+                            Search
+                            <SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN
+                                        class="fieldlabeltext">Search</SPAN></LABEL></SPAN>
+                            <input type="text" name="KEYWRD_IN" size="20" maxlength="65" ID="keyword_in_id" />
+                            <input type="submit" value="Go"
+                            
+                            />
+                        </form>
+                    </div>
+                </TD>
+                <TD CLASS="pldefault">
+                    <p class="rightaligntext" /p>
+                        <SPAN class="pageheaderlinks">
+                            <a href="/pls/prod/twbkwbis.P_GenMenu?name=bmenu.P_RegMnu" target="_blank"
+                                class="submenulinktext2" id="ssbbackurl">RETURN TO MENU</a>
+                            |
+                            <a href="/pls/prod/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3"
+                                target="_blank" accesskey="2" class="submenulinktext2">SITE MAP</a>
+                            |
+                            <a href="/pls/prod/twbkfrmt.P_DispHelp?pagename_in=bwskflib.P_SelDefTerm" accesskey="H"
+                                target="_blank"
+                                onClick="popup = window.open('/pls/prod/twbkfrmt.P_DispHelp?pagename_in=bwskflib.P_SelDefTerm', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false"
+                                target="_blank" onMouseOver="window.status='';  return true"
+                                onMouseOut="window.status=''; return true" onFocus="window.status='';  return true"
+                                onBlur="window.status=''; return true" class="submenulinktext2">HELP</a>
+                            |
+                            <a href="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</a>
+                        </span>
+                </TD>
+            </tr>
+        </table>
+    </DIV>
+    <div class="pagetitlediv">
+        <table CLASS="plaintable" SUMMARY="This table displays title and static header displays." WIDTH="100%">
+            <tr>
+                <TD CLASS="pldefault">
+                    <h2>General Student Record </h2>
+                </TD>
+                <TD CLASS="pldefault">
+                    &nbsp;
+                </TD>
+                <TD CLASS="pldefault">
+                    <p class="rightaligntext" /p>
+                    <div class="staticheaders">
+                        U90325380 Abzal D. Kudratullaev<br>
+                        Apr 08, 2024 08:46 pm<br>
+                    </div>
+                </TD>
+            </tr>
+            <tr>
+                <TD class="bg3" width="100%" colSpan=3><img src="./assets/images/web_transparent.gif"
+                        alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent"
+                        HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+            </tr>
+        </table>
+        <a name="main_content"></a>
+    </DIV>
+    <div class="pagebodydiv">
+        <!--  ** END OF twbkwbis.P_OpenDoc **  -->
+  
+   <div  style="width:40%">
+    <h3 style="font-style: italic;">
+        Student Information  effective from Fall 2023 to The End of Time
+    </h3>
+   
+
+
+   </div>
+    <div  class="h-r">
+        <h4 class="h-t">
+            Registered for Term:
+        </h4>
+        <span>Yes</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+           First Term Attended:
+        </h4>
+        <span>Spring 2022</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+                Last Term Attended:
+        </h4>
+        <span>Fall 2023</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+           Status
+        </h4>
+        <span>Active</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+          Residence:
+        </h4>
+        <span>	(A) Non-FL Res (Non-US)</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+           Citizenship:
+        </h4>
+        <span>Foreign National</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+      Student Type:
+        </h4>
+        <span>	Other undergraduate transfer</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+       Class:
+        </h4>
+        <span>	Sophomore</span>
+
+    </div>
+   
+    <div  class="h-r">
+        <h4 class="h-t">
+           Expected Graduation Date:
+        </h4>
+        <span>Dec 10, 2026</span>
+
+    </div>
+    <h3 
+     class="h-t"
+     style="font-style: italic;
+     height: 0px;
+     "
+    >
+      
+Curriculum Information
+    </h3>
+    <div class="h-b">
+
+    <span class="h-g">
+        Current Program
+    </span>
+    <span style="font-size: 14px;">
+        BS in Information Technology
+    </span>
+    </div>
+
+    <div class="bottom">
+    <div  class="h-r">
+        <h4 class="h-t">
+         Level:
+        </h4>
+        <span>	Undergraduate</span>
+
+    </div> <div  class="h-r">
+        <h4 class="h-t">
+           Program:
+        </h4>
+        <span>	BSIT in Information Technology</span>
+
+    </div> <div  class="h-r">
+        <h4 class="h-t">
+          Admit Term:
+        </h4>
+        <span>	Fall 2022</span>
+
+    </div> <div  class="h-r">
+        <h4 class="h-t">
+        Admit Type:
+        </h4>
+        <span>	Other UG Transf - Lower Level</span>
+
+    </div> <div  class="h-r">
+        <h4 class="h-t">
+          Catalog Term:
+        </h4>
+        <span
+        
+        >Fall 2022</span>
+
+    </div> <div  class="h-r">
+        <h4 class="h-t">
+        College:
+        </h4>
+        <span>Engineering</span>
+
+    </div> <div  class="h-r">
+        <h4 class="h-t">
+           Campus:
+        </h4>
+        <span>	Tampa</span>
+
+    </div> <div  class="h-r">
+        <h4 class="h-t">
+           Major and Department:
+        </h4>
+        <span>Information Technology, Computer Science & Engineering</span>
+
+    </div>
+</div>
+
+  
+   
+
+        <!--  ** START OF twbkwbis.P_CloseDoc **  -->
+        <table CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page." WIDTH="100%"
+            cellSpacing=0 cellPadding=0 border=0>
+            <tr>
+                <TD class="bgtabon" width="100%" colSpan=2><img src="./assets/images/web_transparent.gif"
+                        alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image" NAME="web_transparent"
+                        HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+            </tr>
+        </table>
+        <a href="#top" onMouseover="window.status='Skip to top of page'; return true"
+            onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true"
+            onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</a>
+    </DIV>
+    <div class="footerbeforediv">
+
+    </DIV>
+    <div class="footerafterdiv">
+
+    </DIV>
+    <div class="globalafterdiv">
+
+    </DIV>
+    <div class="globalfooterdiv">
+
+    </DIV>
+    <div class="pagefooterdiv">
+</body>
+
+</html>
