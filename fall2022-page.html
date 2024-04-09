@@ -165,7 +165,10 @@ University of South Florida - Final Grades</h2>
                     <p class="rightaligntext" /p>
                     <div class="staticheaders">
                         U90325380 Abzal D. Kudratullaev<br>
-                        Apr 08, 2024 08:38 pm<br>
+                        <span id="dateTimeContainer">
+
+                            Apr 08, 2024 08:34 pm
+                        </span><br>
                     </div>
                 </TD>
             </tr>
@@ -236,7 +239,32 @@ University of South Florida - Final Grades</h2>
 
     </DIV>
     <div class="pagefooterdiv">
-       
+          <script>
+        // Function to update date and time
+        function updateDateTime() {
+            // Get current date and time
+            var currentDate = new Date();
+
+            // Format date and time
+            var formattedDateTime = currentDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: '2-digit'
+            }) + ' ' + currentDate.toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            // Update the content in the container
+            document.getElementById('dateTimeContainer').innerHTML = formattedDateTime;
+
+            // Schedule the next update after 1 second
+            setTimeout(updateDateTime, 1000);
+        }
+
+        // Call the function initially to start updating
+        updateDateTime();
+    </script>
 </body>
 
 </html>
