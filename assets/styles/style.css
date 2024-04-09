@@ -23,6 +23,19 @@ body {
   margin-bottom: 20px;
 }
 
+.degree-bg-container {
+  position: relative;
+}
+
+.degree-text {
+  font-size: 14px;
+  font-weight: 500;
+  top: 15px;
+  left: 24%;
+  width: 500px;
+  position: absolute;
+}
+
 .main-section {
   position: relative;
   width: 100%;
